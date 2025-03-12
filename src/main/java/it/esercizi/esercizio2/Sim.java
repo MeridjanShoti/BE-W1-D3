@@ -20,7 +20,7 @@ public class Sim {
         System.out.println("credito: " + credito + " €");
         System.out.println("CHIAMATE:");
         for (int i = 0; i< chiamate.length; i++){
-            System.out.println("Chiamata " + i);
+            System.out.println("Chiamata " + (i +1));
             System.out.println("Numero: " + chiamate[i].getNumero());
             System.out.println("Minuti: " + chiamate[i].getMinuti());
         }
