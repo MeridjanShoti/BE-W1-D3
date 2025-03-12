@@ -8,7 +8,9 @@ public class Main {
         System.out.println("inserisci un numero possibilmente di 10 cifre");
         String numero = scanner.next();
         Sim sim1 = new Sim(numero);
-        sim1.setCredito(4.56);
+        System.out.println("inserisci il credito");
+        double credito = scanner.nextDouble();
+        sim1.setCredito(credito);
         sim1.stampaSim();
 
     }
